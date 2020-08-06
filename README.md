@@ -21,7 +21,7 @@ This repository contains the content for the **Introduction to R and RStudio** c
   + Join multiple data sets
   + Build a data analytics workflow
 
-3. Introduction to R and RStudio (3h)
+4. Introduction to R and RStudio (3h)
   + Data visualization
   + Export your visualization
   + Customize your visualizations

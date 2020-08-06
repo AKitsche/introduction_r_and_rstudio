@@ -1,6 +1,6 @@
 # Introduction to R and RStudio
 
-This repository contains the content for the **Introduction to R and RStudio** course from [Andreas Kitsche](andreas.kitsche@gmail.com). Each training is split into three 3h sessions.
+This repository contains the content for the **Introduction to R and RStudio** course from [Andreas Kitsche](andreas.kitsche@gmail.com). The training is split into four 3h sessions.
 
 # Course Content:
 
@@ -10,16 +10,18 @@ This repository contains the content for the **Introduction to R and RStudio** c
   + How to use RStudio to develop R scripts
   + General Syntax of R
   + How to get help
+
+2. Introduction to R and RStudio (3h)
   + Read data into R
   + How to describe your data set
   + Basic data manipulation tasks
-  + Export your data
-2. Introduction to R and RStudio (3h)
+
+3. Introduction to R and RStudio (3h)
   + Advanced data manipulation tasks
+  + Join multiple data sets
+  + Build a data analytics workflow
+
+3. Introduction to R and RStudio (3h)
   + Data visualization
   + Export your visualization
-3. Introduction to R and RStudio (3h)
   + Customize your visualizations
-  + Build customized PowerPoint/Word reports
-  + Build a data analytics workflow
-  + You can find the upcoming courses and the registration form here.

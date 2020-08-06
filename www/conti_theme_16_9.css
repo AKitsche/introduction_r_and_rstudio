@@ -1,0 +1,149 @@
+/*****
+Definition of Continental Corporation Xaringan Layout
+*****/
+
+/* header Definition */
+/* Title Slide */
+.title-slide.center.middle.inverse h1 {
+  padding-top: 40%;
+  text-align: left;
+  font-size: 50px;
+}
+
+.title-slide.center.middle.inverse h2 {
+  padding-top: 40%;
+  text-align: left;
+  font-size: 50px;
+  color: black
+}
+
+.title-slide h5, h6 {
+  text-align: left;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+.title-slide {
+  background-image: url("img/title_image_16_9.png");
+  background-position: top; 
+  background-size: 100%;
+  background-color: rgb(208, 206, 206);
+}
+
+.title-slide h3:nth-of-type(1) {
+    position: fixed;
+    left: 1020px;
+    bottom: 12;
+    color: black;
+    font-size: 12px;
+}
+.title-slide h3:nth-of-type(2) {
+    position: fixed;
+    left: 550px;
+    bottom: 12;
+    color: black;
+    font-size: 12px;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+/* regular slide */
+.remark-slide-content h1 { 
+  font-weight: bold; 
+  color: rgb(254, 165, 0);
+  position: fixed;
+  left: 20px;
+  top: -20px;
+  padding-top: 0%;
+  margin-top: 0%;
+  font-size: 50px;
+}
+
+.remark-slide-content h2 { 
+  font-weight: bold; 
+  color: rgb(208, 206, 206);
+    position: fixed;
+    left: 20px;
+    top: 55px;
+    padding-top: 2%;
+    margin-top: 0%;
+    font-size: 50px;
+}
+
+.remark-slide-content h3 { 
+  font-weight: normal; 
+  bottom: 15px;
+  opacity: 1;
+  position: absolute;
+  left: 700px;
+  font-size: 12px;
+  color: black;
+}
+
+.remark-slide-content h4 { 
+  font-weight: normal; 
+  bottom: 15px;
+  opacity: 1;
+  position: absolute;
+  left: 400px;
+  font-size: 12px;
+  color: black;
+}
+
+/*****
+.remark-slide-content > h5 {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 200px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+*****/
+
+.remark-slide-content.top.left.hljs-github h1 {
+    padding-top: 20px;
+}
+
+
+.remark-slide-content.top.left.hljs-github {
+    padding-top: 120px;
+}
+
+.remark-slide-content:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    height: 60px;
+    width: 1150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("img/footer_logo.png");
+    margin-bottom: 18px;
+}
+
+.remark-slide-number {
+  bottom: 35px;
+  opacity: 1;
+  position: absolute;
+  right: 50px;
+  font-size: 12px;
+}
+
+a, a > code {
+  color: rgb(254, 165, 0); /*default: rgb(249, 38, 114); || sets color of links */
+  text-decoration: none; /* turns off background coloring of links */
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
